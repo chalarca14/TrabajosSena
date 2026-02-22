@@ -21,7 +21,7 @@ namespace senaConsole.Hotel
             double ganancias = 0;
             double ivaG = 0;
 
-            Console.WriteLine("************** Bienbenidos al Hotel Anarecogete **************\n");
+            Console.WriteLine("************** Bienbenidos al Hotel Chalarca **************\n");
 
             Console.Write("Cuantas personas se van a hospedar: ");
             int huespedes = int.TryParse(Console.ReadLine(), out huespedes) && huespedes > 0 ? huespedes : 1;
